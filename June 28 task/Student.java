@@ -1,32 +1,31 @@
 public class Student {
     String name;
     int usn;
-    Student(String name, int usn){
+    Student(String name){
         System.out.println("student name is "+ name +" and usn is "+ usn);
-    }
+    } 
     public static void main(String[] args) {
         System.out.println("running main method of student");
-        Student s1 = new Student("shree" ,  126);
-        Student s2 = new Student("vinod" ,  130);
-        Student s3 = new Student("shekhar" ,  192);
-        Student s4 = new Student("nitish" ,  156);
-        Student s5 = new Student("akash" ,  402);
-        Student s6 = new Student("alice" ,  115);
-        Student s7 = new Student("jacob" ,  93);
-        Student s8 = new Student("harry" ,  26);
-        Student s9 = new Student("ritesh" ,  106);
-        Student s10 = new Student("varun" ,  29);
+        Student s1 = new Student("shree");
+        Student s2 = new Student("vinod");
+        Student s3 = new Student("shekhar");
+        Student s4 = new Student("nitish");
+        Student s5 = new Student("akash");
+        Student s6 = new Student("alice");
+        Student s7 = new Student("jacob");
+        Student s8 = new Student("harry");
+        Student s9 = new Student("ritesh");
+        Student s10 = new Student("varun");
         
     }
 }
 
 class Fruit{
-    String fruit;
-    Fruit(String fruit)
-    {
-        System.out.println(fruit + " is a fruit");
+    String name;
+    Fruit(String name, int usn){
+        System.out.println("student name is "+ name +" and usn is "+ usn);
     }
-public static void main(String[] args) {
+	public static void main(String[] args) {
     System.out.println("Main method of Fruit");
     Fruit one = new Fruit("apple");
     Fruit two = new Fruit("mango");
@@ -46,7 +45,7 @@ class Phone{
     Phone(String mobile)
     {
         System.out.println( "phone name: " + mobile);
-    }
+    } 
 public static void main(String[] args) {
     System.out.println("Main method of Phone");
     Phone p1=new Phone("s23 ultra"); 
@@ -68,7 +67,7 @@ class ItCompany{
     ItCompany(String company)
     {
         System.out.println( "company name: " + company);
-    }
+    } 
 public static void main(String[] args) {
     System.out.println("Main method of company... some IT companies of bangalore are");
     ItCompany company1=new ItCompany("TCS");
@@ -89,7 +88,7 @@ class College{
     College(String institute)
     {
         System.out.println( "college name: " + institute);
-    }
+    }    
 public static void main(String[] args) {
     System.out.println("Main method of company... some IT companies of bangalore are");
     College name1=new College("reva");
