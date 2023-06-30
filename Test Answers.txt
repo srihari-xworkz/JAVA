@@ -1,0 +1,103 @@
+					APTITUDE
+					
+ANS 1.	31 b
+ANS 2.	20 c
+ANS 3.	100 a
+ANS 4.	63 c
+ANS 5.	9 a
+ANS 6.	k b
+ANS 7.	P a
+ANS 8.	FR b
+ANS 9.	bccab c
+ANS 10	GOV a
+ANS 11.	2 
+ANS 12.	38
+ANS 13	window
+ANS 14.	sun
+ANS 15.	BE
+
+					CORE JAVA
+
+ANS 1.	java is a keyword used as a command to run the class file created after the compilation of source code file or .java file
+		javac is also a keyword or a command to compile a java source code file which converts the source file into class file.
+		ex- javac example.java
+			java example
+			
+ANS 2. 	JDK- its an abbrevation for Java Development Kit which includes softwares to support the compilation and execution of 
+			 java programs, includes a set of libraries.
+		JRE- stands for Java Runtime Environment, which creates an environment for the compiled files to be able to run.
+		JVM- It stands for JAVA Virtual Machine, which is basically a software that carries out compilation process.
+		
+ANS 3.	limitations of Array are-
+		1.size cannot be changed during runtime.
+		2.lack of flexibility.
+		
+ANS 6. 	.java file is the sorce file or the code file that is written is high level language in any text editor and is
+		human understandable whereas the .class file is the compiled file which is the byte code of the written source code
+		and is MLL.
+		
+ANS 4.	class - It is the blueprint of the objects or a sketch of which type of objects it contains.
+		Object - Any real world entity is referred to as object OR instance of class is called an Object.
+		
+ANS 5.	Array is a non primitive data type (or data structure) which holds or stores homogenous values in the form of matrix.
+
+ANS 7.	6
+
+ANS 8.	method signature- 
+		AccessSpecifier NonAccessSpecifier ReturnType methodName(parameters)
+		{
+			//set of statements; or body of method;
+		}
+		AS - can be public, protected, private
+		NAS - static or non-static
+		ReturnType - void,primitive/nonPrimitive dataType
+		methodName - name of the method
+		parameters - is a keyword
+		
+ANS 9.	Java is high level programming language which is object oriented. java was discovered by Jose Bosling 1975.
+
+ANS 10.	Variable is a container which holds the values or the address of memory. Types of variables-
+		1.local variables
+		2.instance variables
+		
+ANS 11.	A variable which is defined inside a class scope is called as class variable.
+
+ANS 12.	DataType defines the type of data the variable holds. There are two types of datatypes-
+		Primitive datatypes- int,char,float,byte,short,long,double
+		NonPrimitive dataType- String,array,tree,graph.
+		
+ANS 13. Features of Java are-
+		1. object oriented
+		2. secure
+		3. machine independent
+		
+ANS 14.	Basically there are three type of array -
+		One dimensional array - stores values continuously i.e in a row.
+				ex: String name[2]={"abc","def"}; // op is abc def
+		Two dimensional array - stores the values in row and column format (or matrix).
+				ex:	int number[2][2]={1,2,3,4};	// op is 1 2
+														 3 4
+		Multi dimensional array.
+		
+ANS 16: System.out.println() is a type of method that is used to print the message passed to it in () followed by ; on output console.
+
+ANS 17. double equal operator or == is used to check the match of two values.
+		ex: a=10;
+			b=20;
+			return a==b;
+			//op will be of boolean type i.e False.
+			
+ANS 18.	dot operator is used to fetch the address.
+
+ANS 19.	base class of all the classes will be the main class (or public class).
+
+ANS 20. 		1.static
+				2.class
+				3.args
+				4.String
+				5.public
+				6.main
+				7.char
+				8.for
+				9.if
+				10.switch
