@@ -81,15 +81,15 @@ ANS 14.	Basically there are three type of array -
 		
 ANS 16: System.out.println() is a type of method that is used to print the message passed to it in () followed by ; on output console.
 
-ANS 17. double equal operator or == is used to check the match of two values.
+ANS 17. double equal operator or == is used to check the match of two values. OR its a equality operator and returns boolean values.
 		ex: a=10;
 			b=20;
 			return a==b;
 			//op will be of boolean type i.e False.
 			
-ANS 18.	dot operator is used to fetch the address.
+ANS 18.	dot operator is used to fetch the address, access the class or method.
 
-ANS 19.	base class of all the classes will be the main class (or public class).
+ANS 19.	base class of all the classes will be the object class.
 
 ANS 20. 		1.static
 				2.class
